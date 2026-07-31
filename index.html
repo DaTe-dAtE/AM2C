@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="AM2C, expert en génie climatique (Chauffage, Ventilation, Climatisation) et plomberie en Île-de-France et Seine-et-Marne.">
-    <title>AM2C | Artisan Chauffagiste, Plombier et Climatisation (77, 91, IDF)</title>
+    <meta name="description" content="AM2C, entreprise spécialisée en Climatisation, Chauffage, Plomberie et Rénovation TCE (Tous Corps d'État) en Île-de-France et Seine-et-Marne.">
+    <title>AM2C | Climatisation, Chauffage, Plomberie & Rénovation TCE (77, 91, IDF)</title>
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
     
+    <!-- EN-TÊTE & NAVIGATION -->
     <header class="header">
         <div class="header__top-bar">
             <a href="tel:+33688592324" class="header__emergency-link">📞 Dépannage & Urgence : 06 88 59 23 24</a>
         </div>
         <div class="header__main">
-            <a href="/" class="header__logo-link">
+            <a href="index.html" class="header__logo-link">
                 <img src="static/amc_logo.png" alt="AM2C - CHAUFFAGE VENTILATION CLIMATISATION RÉNOVATION" class="header__logo">
             </a>
             <nav class="header__nav" aria-label="Menu principal">
                 <ul class="header__menu">
-                    <li class="header__menu-item"><a href="#expertises" class="header__menu-link">Nos Expertises</a></li>
+                    <li class="header__menu-item"><a href="#expertises" class="header__menu-link">Nos 2 Pôles</a></li>
                     <li class="header__menu-item"><a href="#pourquoi-nous" class="header__menu-link">Pourquoi AM2C</a></li>
-                    <li class="header__menu-item"><a href="#realisations" class="header__menu-link">Réalisations</a></li>
+                    <li class="header__menu-item"><a href="realisations.html" class="header__menu-link">Réalisations</a></li>
                 </ul>
             </nav>
             <div class="header__cta-group">
@@ -31,18 +32,21 @@
     </header>
 
     <main>
+        <!-- SECTION HÉRO -->
         <section class="hero">
             <div class="hero__content">
-                <h1 class="hero__title">Artisan Chauffage, Plomberie et Climatisation</h1>
-                <p class="hero__description">Nous réalisons la pose de chaudière, création de salle de bain complète et climatisation. Nous vous accompagnons dans tous vos projets en CVC avec des solutions sur-mesure.</p>
+                <h1 class="hero__title">Artisan CVC, Plomberie & Rénovation Tous Corps d'État</h1>
+                <p class="hero__description">Du génie climatique (chauffage, climatisation, plomberie) à la rénovation globale TCE de votre habitat. Un interlocuteur unique pour l'ensemble de vos travaux en Île-de-France.</p>
                 <div class="hero__actions">
                     <a href="#devis" class="btn btn--primary">Estimer mon projet</a>
+                    <a href="tel:+33688592324" class="btn btn--secondary">Intervention Dépannage</a>
                 </div>
             </div>
         </section>
 
+        <!-- BARRE DE RÉASSURANCE -->
         <aside class="trust-bar" aria-label="Certifications et garanties de l'entreprise">
-            <h2 class="sr-only">Nos certifications et garanties qualité</h2>
+            <h2 class="sr-only">Nos garanties et expertises</h2>
             <ul class="trust-bar__list">
                 <li class="trust-bar__item"><span class="trust-bar__icon">🏆 40 ans d'expérience</span></li>
                 <li class="trust-bar__item"><span class="trust-bar__icon">🛡️ Garantie Décennale</span></li>
@@ -50,34 +54,57 @@
             </ul>
         </aside>
 
+        <!-- LES 2 PÔLES D'EXPERTISE -->
         <section id="expertises" class="services">
             <div class="services__container">
-                <h2 class="services__section-title">Nos solutions en Chauffage, Climatisation et Plomberie</h2>
-                <div class="services__grid">
-                    <article class="service-card">
-                        <h3 class="service-card__title">Installation et Entretien de Chauffage</h3>
-                        <p class="service-card__text">Optimisez votre confort thermique. Pose de pompes à chaleur (PAC), chaudières haute performance et réseaux de chauffage central.</p>
-                        <a href="#chauffage" class="service-card__link">Découvrir ce service ➔</a>
+                <h2 class="services__section-title">Nos 2 Pôles d'Expertise Majeurs</h2>
+                <p class="services__section-subtitle">Découvrez nos domaines d'intervention pour particuliers et professionnels.</p>
+                
+                <div class="poles-grid">
+                    
+                    <!-- PÔLE 1 : CLIM, CHAUFFAGE & PLOMBERIE -->
+                    <article class="pole-card">
+                        <div class="pole-card__img-wrapper">
+                            <img src="static\climatisation-plomberie-chauffage.png" alt="Pôle Climatisation Chauffage et Plomberie" class="pole-card__img">
+                            <span class="pole-card__badge">Pôle 1</span>
+                        </div>
+                        <div class="pole-card__body">
+                            <h3 class="pole-card__title">Climatisation, Chauffage & Plomberie</h3>
+                            <p class="pole-card__desc">Conception, installation et maintenance de vos équipements thermiques et sanitaires.</p>
+                            <ul class="pole-card__list">
+                                <li><strong>Climatisation Réversible :</strong> Mono-split, multi-split et pompe à chaleur air-air.</li>
+                                <li><strong>Chauffage & Chaudières :</strong> Pompes à chaleur (PAC) air-eau, chaudières gaz/fioul, réseaux cuivre.</li>
+                                <li><strong>Plomberie & Sanitaire :</strong> Création de salle de bain, tuyauterie, dépannage et mise aux normes.</li>
+                                <li><strong>Ventilation (VMC) :</strong> Installation VMC simple/double flux et traitement d'air.</li>
+                            </ul>
+                            <a href="realisations.html#pole-1" class="service-card__link">Voir les chantiers du Pôle 1 ➔</a>
+                        </div>
                     </article>
-                    <article class="service-card">
-                        <h3 class="service-card__title">Systèmes de Climatisation Réversible</h3>
-                        <p class="service-card__text">Maîtrisez votre température été comme hiver. Pose et mise en service de climatisation mono-split et multi-split.</p>
-                        <a href="#climatisation" class="service-card__link">Découvrir ce service ➔</a>
+
+                    <!-- PÔLE 2 : RÉNOVATION TCE -->
+                    <article class="pole-card">
+                        <div class="pole-card__img-wrapper">
+                            <img src="static\Renovation TCE (Tous Corps d'État).png" alt="Pôle Rénovation Tous Corps d'État TCE" class="pole-card__img">
+                            <span class="pole-card__badge">Pôle 2</span>
+                        </div>
+                        <div class="pole-card__body">
+                            <h3 class="pole-card__title">Rénovation TCE (Tous Corps d'État)</h3>
+                            <p class="pole-card__desc">Prise en charge globale de vos travaux de rénovation intérieure et transformation d'espaces.</p>
+                            <ul class="pole-card__list">
+                                <li><strong>Aménagement de Combles & Garages :</strong> Transformation complète en pièces de vie ou suite parentale.</li>
+                                <li><strong>Rénovation de Cuisine & Pièces d'eau :</strong> Conception sur-mesure, pose de réseaux et finitions.</li>
+                                <li><strong>Isolation & Électricité :</strong> Isolation thermique/phonique et réfection des réseaux électriques.</li>
+                                <li><strong>Second Œuvre & Finitions :</strong> Plâtrerie, revêtements de sol/murs et peinture.</li>
+                            </ul>
+                            <a href="realisations.html#pole-2" class="service-card__link">Voir les chantiers du Pôle 2 ➔</a>
+                        </div>
                     </article>
-                    <article class="service-card">
-                        <h3 class="service-card__title">Création de Salle de Bain & Plomberie</h3>
-                        <p class="service-card__text">Rénovation et création complète de vos pièces d'eau. Installation sanitaire, tuyauterie et dépannage plomberie.</p>
-                        <a href="#plomberie" class="service-card__link">Découvrir ce service ➔</a>
-                    </article>
-                    <article class="service-card">
-                        <h3 class="service-card__title">Ventilation (VMC)</h3>
-                        <p class="service-card__text">Garantissez la qualité de l'air intérieur. Installation et maintenance de VMC simple ou double flux pour un habitat sain.</p>
-                        <a href="#ventilation" class="service-card__link">Découvrir ce service ➔</a>
-                    </article>
+
                 </div>
             </div>
         </section>
 
+        <!-- POURQUOI CHOISIR AM2C -->
         <section id="pourquoi-nous" class="why-us">
             <div class="why-us__container">
                 <h2 class="why-us__title">Une expertise technique reconnue</h2>
@@ -85,27 +112,28 @@
                     <article class="why-us__target">
                         <h3 class="why-us__subtitle">Savoir-faire et tranquillité d'esprit</h3>
                         <ul class="why-us__list">
-                            <li>Un interlocuteur unique de l'étude à la livraison du chantier.</li>
-                            <li>40 ans d'expertise technique sur le terrain.</li>
-                            <li>Des chantiers propres et respectueux de votre domicile.</li>
+                            <li>Un interlocuteur unique pour le génie climatique et la rénovation TCE.</li>
+                            <li>40 ans d'expérience du bâtiment transmis sur le terrain.</li>
+                            <li>Respect des délais et suivi rigoureux de chaque chantier.</li>
                         </ul>
                     </article>
                     <article class="why-us__target">
                         <h3 class="why-us__subtitle">Qualité et conformité</h3>
                         <ul class="why-us__list">
-                            <li>Matériel sélectionné parmi les plus grandes marques.</li>
-                            <li>Respect strict des normes DTU et de sécurité.</li>
-                            <li>Agréments officiels pour la manipulation des fluides frigorigènes.</li>
+                            <li>Matériel haut de gamme sélectionné auprès des plus grands fabricants.</li>
+                            <li>Respect strict des normes DTU, électriques et de sécurité.</li>
+                            <li>Attestation de capacité officielle fluides frigorigènes.</li>
                         </ul>
                     </article>
                 </div>
             </div>
         </section>
 
+        <!-- FORMULAIRE DE DEVIS -->
         <section id="devis" class="pre-footer-cta">
             <div class="pre-footer-cta__container">
-                <h2 class="pre-footer-cta__title">Un projet de chauffage, climatisation ou plomberie ?</h2>
-                <p class="pre-footer-cta__text">Remplissez ce formulaire pour obtenir une estimation gratuite en 48h.</p>
+                <h2 class="pre-footer-cta__title">Un projet en Climatisation, Chauffage, Plomberie ou Rénovation TCE ?</h2>
+                <p class="pre-footer-cta__text">Remplissez ce formulaire pour obtenir une étude et un devis gratuit sous 48h.</p>
                 
                 <form action="#" method="POST" class="quote-form">
                     <div class="form-group">
@@ -114,22 +142,21 @@
                     </div>
                     <div class="form-group">
                         <input type="email" name="email" placeholder="Votre adresse email" required class="form-input">
-                        <select name="projet" required class="form-input">
-                            <option value="">Sélectionnez votre type de projet</option>
-                            <option value="chauffage">Installation Chauffage / Chaudière / PAC</option>
-                            <option value="climatisation">Climatisation Réversible</option>
-                            <option value="salle-de-bain">Création Salle de Bain / Plomberie</option>
-                            <option value="depannage">Dépannage / Entretien</option>
+                        <select name="pole" required class="form-input">
+                            <option value="">Sélectionnez le pôle concerné</option>
+                            <option value="pole1">Pôle 1 : Climatisation / Chauffage / Plomberie</option>
+                            <option value="pole2">Pôle 2 : Rénovation TCE (Tous Corps d'État)</option>
+                            <option value="urgence">Dépannage / Entretien Urgent</option>
                         </select>
                     </div>
-                    <textarea name="message" placeholder="Décrivez brièvement votre besoin et votre code postal..." rows="4" required class="form-input"></textarea>
+                    <textarea name="message" placeholder="Décrivez votre besoin (type de travaux, ville, délais souhaités)..." rows="4" required class="form-input"></textarea>
                     <button type="submit" class="btn btn--primary btn--large">Envoyer ma demande de devis</button>
                 </form>
-
             </div>
         </section>
     </main>
 
+    <!-- PIED DE PAGE -->
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__column">
@@ -157,7 +184,7 @@
                 </nav>
             </div>
             <div class="footer__column">
-                <h3 class="footer__subtitle">Contactez AM2C</h3>
+                <h3 class="footer__subtitle">Informations Légales</h3>
                 <nav aria-label="Liens légaux">
                     <ul class="footer__list">
                         <li><a href="#mentions-legales">Mentions Légales</a></li>

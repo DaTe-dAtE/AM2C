@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez nos chantiers complets en Climatisation, Chauffage, Plomberie et Rénovation TCE réalisés par AM2C.">
+    <title>Nos Chantiers & Réalisations | AM2C</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    
+    <!-- EN-TÊTE -->
+    <header class="header">
+        <div class="header__top-bar">
+            <a href="tel:+33688592324" class="header__emergency-link">📞 Dépannage & Urgence : 06 88 59 23 24</a>
+        </div>
+        <div class="header__main">
+            <a href="index.html" class="header__logo-link">
+                <img src="static/amc_logo.png" alt="AM2C Logo" class="header__logo">
+            </a>
+            <nav class="header__nav" aria-label="Menu principal">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="index.html#expertises" class="header__menu-link">Nos 2 Pôles</a></li>
+                    <li class="header__menu-item"><a href="index.html#pourquoi-nous" class="header__menu-link">Pourquoi AM2C</a></li>
+                    <li class="header__menu-item"><a href="realisations.html" class="header__menu-link" aria-current="page">Réalisations</a></li>
+                </ul>
+            </nav>
+            <div class="header__cta-group">
+                <a href="index.html#devis" class="btn btn--primary">Demander un devis gratuit</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HÉRO PORTFOLIO -->
+        <section class="hero hero--portfolio">
+            <div class="hero__content">
+                <h1 class="hero__title">Nos Chantiers en Images</h1>
+                <p class="hero__description">Chaque carte ci-dessous représente un chantier complet. Cliquez sur un chantier pour en explorer toutes les photos.</p>
+            </div>
+        </section>
+
+        <!-- PÔLE 1 : CLIMATISATION, CHAUFFAGE & PLOMBERIE -->
+        <section id="pole-1" class="portfolio">
+            <div class="portfolio__container">
+                <div class="section-header">
+                    <span class="section-header__badge">Pôle 1</span>
+                    <h2 class="section-header__title">Climatisation, Chauffage & Plomberie</h2>
+                </div>
+
+                <div class="projects-list">
+                    
+                    <!-- CHANTIER 1 : Rénovation Salle de Bain -->
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <div class="project-card__meta">
+                                <span class="project-card__tag">Plomberie & Sanitaire</span>
+                                <h3 class="project-card__title">Création & Rénovation de Salle de Bain</h3>
+                                <p class="project-card__location">📍 Montereau-Fault-Yonne (77)</p>
+                                <p class="project-card__desc">Rénovation complète comprenant la plomberie encastrée, pose d'équipements sanitaires et finitions.</p>
+                            </div>
+                            <button class="btn btn--outline project-card__btn" onclick="toggleChantier('salle-de-bain', this)">
+                                📷 Voir les 7 photos du chantier
+                            </button>
+                        </div>
+
+                        <!-- Galerie du chantier (Masquée par défaut) -->
+                        <div id="salle-de-bain" class="project-gallery">
+                            <div class="project-gallery__grid">
+                                <img src="static/picture/Pôle 1/Renovation sale de bain/creation-salle-de-bain-1.jpeg" alt="Salle de bain vue 1" loading="lazy">
+                                <img src="static/picture/Pôle 1/Renovation sale de bain/creation-salle-de-bain-2.jpeg" alt="Salle de bain vue 2" loading="lazy">
+                                <img src="static/picture/Pôle 1/Renovation sale de bain/creation-salle-de-bain-3.jpeg" alt="Salle de bain vue 3" loading="lazy">
+                                <img src="static/picture/Pôle 1/Renovation sale de bain/creation-salle-de-bain-4.jpeg" alt="Salle de bain vue 4" loading="lazy">
+                                <img src="static/picture/Pôle 1/Renovation sale de bain/creation-salle-de-bain-5.jpeg" alt="Salle de bain vue 5" loading="lazy">
+                                <img src="static/picture/Pôle 1/Renovation sale de bain/creation-salle-de-bain-6.jpeg" alt="Salle de bain vue 6" loading="lazy">
+                                <img src="static/picture/Pôle 1/Renovation sale de bain/creation-salle-de-bain-7.jpeg" alt="Salle de bain vue 7" loading="lazy">
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CHANTIER 2 : Chauffagerie -->
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <div class="project-card__meta">
+                                <span class="project-card__tag">Chauffage & CVC</span>
+                                <h3 class="project-card__title">Installation & Raccordement Chaufferie</h3>
+                                <p class="project-card__location">📍 Melun (77) & Évry (91)</p>
+                                <p class="project-card__desc">Travaux de tuyauterie cuivre, vannes de régulation et distribution thermique pour chauffage central.</p>
+                            </div>
+                            <button class="btn btn--outline project-card__btn" onclick="toggleChantier('chauffagerie', this)">
+                                📷 Voir les 4 photos du chantier
+                            </button>
+                        </div>
+
+                        <div id="chauffagerie" class="project-gallery">
+                            <div class="project-gallery__grid">
+                                <img src="static/picture/Pôle 1/Travaux de rénovation1/travaux-chauffagerie-1.jpg" alt="Chauffagerie vue 1" loading="lazy">
+                                <img src="static/picture/Pôle 1/Travaux de rénovation1/travaux-chauffagerie-2.jpg" alt="Chauffagerie vue 2" loading="lazy">
+                                <img src="static/picture/Pôle 1/Travaux de rénovation1/travaux-chauffagerie-3.jpg" alt="Chauffagerie vue 3" loading="lazy">
+                                <img src="static/picture/Pôle 1/Travaux de rénovation1/travaux-chauffagerie-4.jpg" alt="Chauffagerie vue 4" loading="lazy">
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PÔLE 2 : RÉNOVATION TCE -->
+        <section id="pole-2" class="portfolio portfolio--alt">
+            <div class="portfolio__container">
+                <div class="section-header">
+                    <span class="section-header__badge section-header__badge--accent">Pôle 2</span>
+                    <h2 class="section-header__title">Rénovation TCE (Tous Corps d'État)</h2>
+                </div>
+
+                <div class="projects-list">
+
+                    <!-- CHANTIER 3 : Garage & Suite Parentale -->
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <div class="project-card__meta">
+                                <span class="project-card__tag">Rénovation Globale</span>
+                                <h3 class="project-card__title">Transformation Cuisine</h3>
+                                <p class="project-card__location">📍 Orry-la-Ville (60)</p>
+                                <p class="project-card__desc">Chantier Tous Corps d'État : isolation, plâtrerie, électricité, sanitaire et aménagements.</p>
+                            </div>
+                            <button class="btn btn--outline project-card__btn" onclick="toggleChantier('suite-parentale', this)">
+                                📷 Voir les 5 photos du chantier
+                            </button>
+                        </div>
+
+                        <div id="suite-parentale" class="project-gallery">
+                            <div class="project-gallery__grid">
+                                <img src="static/picture/Pôle 2/Renovation Cuissine/creation-salle-de-cuisine-1.jpeg" alt="Suite parentale vue 1" loading="lazy">
+                                <img src="static/picture/Pôle 2/Renovation Cuissine/creation-salle-de-cuisine-2.jpeg" alt="Suite parentale vue 2" loading="lazy">
+                                <img src="static/picture/Pôle 2/Renovation Cuissine/creation-salle-de-cuisine-3.jpeg" alt="Suite parentale vue 3" loading="lazy">
+                                <img src="static/picture/Pôle 2/Renovation Cuissine/creation-salle-de-cuisine-4.jpeg" alt="Suite parentale vue 4" loading="lazy">
+                                <img src="static/picture/Pôle 2/Renovation Cuissine/creation-salle-de-cuisine-5.jpeg" alt="Suite parentale vue 5" loading="lazy">
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CHANTIER 4 : Rénovation Cuisine -->
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <div class="project-card__meta">
+                                <span class="project-card__tag">Aménagement Intérieur</span>
+                                <h3 class="project-card__title">Rénovation & Aménagement de Cuisine</h3>
+                                <p class="project-card__location">📍 Fontainebleau (77)</p>
+                                <p class="project-card__desc">Remise à neuf des arrivées d'eau, plâtrerie, électricité et aménagement d'espace.</p>
+                            </div>
+                            <button class="btn btn--outline project-card__btn" onclick="toggleChantier('cuisine', this)">
+                                📷 Voir les 5 photos du chantier
+                            </button>
+                        </div>
+
+                        <div id="cuisine" class="project-gallery">
+                            <div class="project-gallery__grid">
+                                <img src="static/picture/Pôle 2/Travaux de rénovation2/renovation-cuisine-1.jpg" alt="Cuisine vue 1" loading="lazy">
+                                <img src="static/picture/Pôle 2/Travaux de rénovation2/renovation-cuisine-2.jpg" alt="Cuisine vue 2" loading="lazy">
+                                <img src="static/picture/Pôle 2/Travaux de rénovation2/renovation-cuisine-3.jpg" alt="Cuisine vue 3" loading="lazy">
+                                <img src="static/picture/Pôle 2/Travaux de rénovation2/renovation-cuisine-4.jpg" alt="Cuisine vue 4" loading="lazy">
+                                <img src="static/picture/Pôle 2/Travaux de rénovation2/renovation-cuisine-5.jpg" alt="Cuisine vue 5" loading="lazy">
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CHANTIER 5 : Rénovation Chambre -->
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <div class="project-card__meta">
+                                <span class="project-card__tag">Second Œuvre</span>
+                                <h3 class="project-card__title">Rénovation Intérieure & Chambre</h3>
+                                <p class="project-card__location">📍 Savigny-le-Temple (77)</p>
+                                <p class="project-card__desc">Pose de doublages, isolation thermique performante, électricité et peintures de finition.</p>
+                            </div>
+                            <button class="btn btn--outline project-card__btn" onclick="toggleChantier('chambre', this)">
+                                📷 Voir les 6 photos du chantier
+                            </button>
+                        </div>
+
+                        <div id="chambre" class="project-gallery">
+                            <div class="project-gallery__grid">
+                                <img src="static/picture/Pôle 2/Renovation Chambre/pic1 (1).jpeg" alt="Chambre vue 1" loading="lazy">
+                                <img src="static/picture/Pôle 2/Renovation Chambre/pic1 (2).jpeg" alt="Chambre vue 2" loading="lazy">
+                                <img src="static/picture/Pôle 2/Renovation Chambre/pic1 (3).jpeg" alt="Chambre vue 3" loading="lazy">
+                                <img src="static/picture/Pôle 2/Renovation Chambre/pic1 (4).jpeg" alt="Chambre vue 4" loading="lazy">
+                                <img src="static/picture/Pôle 2/Renovation Chambre/pic1 (5).jpeg" alt="Chambre vue 5" loading="lazy">
+                                <img src="static/picture/Pôle 2/Renovation Chambre/pic1 (6).jpeg" alt="Chambre vue 6" loading="lazy">
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA FINAL -->
+        <section class="pre-footer-cta">
+            <div class="pre-footer-cta__container">
+                <h2 class="pre-footer-cta__title">Un projet de rénovation ou d'installation ?</h2>
+                <p class="pre-footer-cta__text">Confiez vos travaux à AM2C. Devis gratuit et étude sous 48h.</p>
+                <a href="index.html#devis" class="btn btn--primary btn--large">Demander mon devis gratuit</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIED DE PAGE -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__column">
+                <img src="static/amc_logo.png" alt="AM2C Logo" class="footer__logo">
+                <address class="footer__address">
+                    <p>11 bis rue grande <br>77130 Marolles-Sur-Seine, France</p>
+                    <p><a href="tel:+33688592324">06 88 59 23 24</a></p>
+                    <p><a href="tel:+33681663451">06 81 66 34 51</a></p>
+                    <p><a href="mailto:abdelam2c@gmail.com">abdelam2c@gmail.com</a></p>
+                    <p><a href="mailto:hamlin.mehdi@gmail.com">hamlin.mehdi@gmail.com</a></p>
+                    <p>SIRET : 941 567 869 000 16</p>
+                </address>
+            </div>
+            <div class="footer__column">
+                <h3 class="footer__subtitle">Zones d'intervention</h3>
+                <nav aria-label="Zones d'intervention">
+                    <ul class="footer__list">
+                        <li><a href="#seine-et-marne">Seine-et-Marne (77)</a></li>
+                        <li><a href="#essonne">Essonne (91)</a></li>
+                        <li><a href="#paris">Paris (75)</a></li>
+                        <li><a href="#hauts-de-seine">Hauts-de-Seine (92)</a></li>
+                        <li><a href="#seine-saint-denis">Seine-Saint-Denis (93)</a></li>
+                        <li><a href="#val-de-marne">Val-de-Marne (94)</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__column">
+                <h3 class="footer__subtitle">Informations Légales</h3>
+                <nav aria-label="Liens légaux">
+                    <ul class="footer__list">
+                        <li><a href="#mentions-legales">Mentions Légales</a></li>
+                        <li><a href="#politique-confidentialite">Politique de Confidentialité</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT EXPANSION CHANTIERS -->
+    <script>
+        function toggleChantier(galleryId, button) {
+            const gallery = document.getElementById(galleryId);
+            const isOpen = gallery.classList.toggle('is-open');
+
+            if (!button.hasAttribute('data-text-open')) {
+                button.setAttribute('data-text-open', button.textContent.trim());
+            }
+
+            if (isOpen) {
+                button.textContent = "✖ Masquer la galerie du chantier";
+                button.classList.add('btn--active');
+            } else {
+                button.textContent = button.getAttribute('data-text-open');
+                button.classList.remove('btn--active');
+            }
+        }
+    </script>
+</body>
+</html>
